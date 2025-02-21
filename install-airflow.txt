@@ -7,3 +7,7 @@ md logs
 md plugins
 docker-compose up airflow-init
 docker-compose up
+
+localhost:8080
+airflow
+airflow
