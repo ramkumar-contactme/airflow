@@ -1,0 +1,2030 @@
+[2025-02-21T07:52:57.790+0000] {processor.py:161} INFO - Started process (PID=10900) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:52:57.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:52:57.801+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:52:57.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:52:58.755+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:52:58.733+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:52:58.761+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:52:58.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.037 seconds
+[2025-02-21T07:53:29.307+0000] {processor.py:161} INFO - Started process (PID=10963) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:53:29.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:53:29.312+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:53:29.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:53:30.275+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:53:30.257+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:53:30.281+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:53:30.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.044 seconds
+[2025-02-21T07:54:00.868+0000] {processor.py:161} INFO - Started process (PID=11027) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:54:00.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:54:00.880+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:54:00.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:54:01.760+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:54:01.732+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:54:01.767+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:54:01.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.975 seconds
+[2025-02-21T07:54:32.241+0000] {processor.py:161} INFO - Started process (PID=11088) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:54:32.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:54:32.248+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:54:32.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:54:33.411+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:54:33.396+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:54:33.417+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:54:33.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.261 seconds
+[2025-02-21T07:55:03.744+0000] {processor.py:161} INFO - Started process (PID=11150) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:55:03.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:55:03.751+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:55:03.751+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:55:04.452+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:55:04.433+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:55:04.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:55:04.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.792 seconds
+[2025-02-21T07:55:35.763+0000] {processor.py:161} INFO - Started process (PID=11213) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:55:35.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:55:35.771+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:55:35.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:55:37.371+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:55:37.343+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:55:37.381+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:55:37.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.736 seconds
+[2025-02-21T07:56:08.097+0000] {processor.py:161} INFO - Started process (PID=11277) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:56:08.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:56:08.105+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:56:08.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:56:08.964+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:56:08.943+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:56:08.971+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:56:09.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.945 seconds
+[2025-02-21T07:56:39.994+0000] {processor.py:161} INFO - Started process (PID=11338) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:56:39.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:56:40.003+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:56:40.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:56:40.909+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:56:40.887+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:56:40.913+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:56:40.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.987 seconds
+[2025-02-21T07:57:11.331+0000] {processor.py:161} INFO - Started process (PID=11401) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:57:11.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:57:11.350+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:57:11.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:57:12.322+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:57:12.306+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:57:12.328+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:57:12.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.091 seconds
+[2025-02-21T07:57:42.690+0000] {processor.py:161} INFO - Started process (PID=11462) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:57:42.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:57:42.696+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:57:42.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:57:43.822+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:57:43.800+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:57:43.828+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:57:43.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.222 seconds
+[2025-02-21T07:58:14.786+0000] {processor.py:161} INFO - Started process (PID=11526) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:58:14.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:58:14.794+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:58:14.794+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:58:15.590+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:58:15.574+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:58:15.597+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:58:15.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.922 seconds
+[2025-02-21T07:58:46.122+0000] {processor.py:161} INFO - Started process (PID=11591) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:58:46.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:58:46.128+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:58:46.127+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:58:47.033+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:58:47.015+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:58:47.036+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:58:47.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.000 seconds
+[2025-02-21T07:59:17.585+0000] {processor.py:161} INFO - Started process (PID=11657) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:59:17.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:59:17.596+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:59:17.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:59:18.647+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:59:18.631+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:59:18.652+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:59:18.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.130 seconds
+[2025-02-21T07:59:49.256+0000] {processor.py:161} INFO - Started process (PID=11722) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:59:49.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T07:59:49.261+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:59:49.261+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:59:50.085+0000] {logging_mixin.py:188} INFO - [2025-02-21T07:59:50.064+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T07:59:50.094+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T07:59:50.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.925 seconds
+[2025-02-21T08:00:20.418+0000] {processor.py:161} INFO - Started process (PID=11786) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:00:20.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:00:20.431+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:00:20.429+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:00:21.308+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:00:21.290+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:00:21.314+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:00:21.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.954 seconds
+[2025-02-21T08:00:51.618+0000] {processor.py:161} INFO - Started process (PID=11849) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:00:51.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:00:51.627+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:00:51.627+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:00:52.504+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:00:52.464+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:00:52.521+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:00:52.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.015 seconds
+[2025-02-21T08:01:22.894+0000] {processor.py:161} INFO - Started process (PID=11920) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:01:22.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:01:22.899+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:01:22.899+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:01:23.849+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:01:23.823+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:01:23.860+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:01:23.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.071 seconds
+[2025-02-21T08:01:54.506+0000] {processor.py:161} INFO - Started process (PID=11983) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:01:54.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:01:54.511+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:01:54.511+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:01:55.388+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:01:55.370+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:01:55.398+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:01:55.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.960 seconds
+[2025-02-21T08:02:25.649+0000] {processor.py:161} INFO - Started process (PID=12048) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:02:25.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:02:25.658+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:02:25.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:02:26.625+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:02:26.593+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:02:26.633+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:02:26.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.070 seconds
+[2025-02-21T08:02:57.254+0000] {processor.py:161} INFO - Started process (PID=12112) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:02:57.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:02:57.265+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:02:57.264+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:02:58.263+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:02:58.242+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:02:58.268+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:02:58.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.105 seconds
+[2025-02-21T08:03:28.536+0000] {processor.py:161} INFO - Started process (PID=12174) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:03:28.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:03:28.546+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:03:28.545+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:03:29.564+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:03:29.532+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:03:29.573+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:03:29.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.131 seconds
+[2025-02-21T08:04:00.198+0000] {processor.py:161} INFO - Started process (PID=12238) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:04:00.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:04:00.207+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:04:00.207+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:04:01.131+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:04:01.102+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:04:01.142+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:04:01.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.024 seconds
+[2025-02-21T08:04:31.757+0000] {processor.py:161} INFO - Started process (PID=12301) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:04:31.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:04:31.765+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:04:31.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:04:32.543+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:04:32.526+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:04:32.549+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:04:32.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.877 seconds
+[2025-02-21T08:05:03.124+0000] {processor.py:161} INFO - Started process (PID=12364) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:05:03.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:05:03.131+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:05:03.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:05:04.248+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:05:04.220+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:05:04.256+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:05:04.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.205 seconds
+[2025-02-21T08:05:34.623+0000] {processor.py:161} INFO - Started process (PID=12427) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:05:34.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:05:34.629+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:05:34.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:05:35.616+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:05:35.600+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:05:35.621+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:05:35.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.059 seconds
+[2025-02-21T08:06:06.447+0000] {processor.py:161} INFO - Started process (PID=12493) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:06:06.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:06:06.455+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:06:06.454+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:06:07.377+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:06:07.358+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:06:07.381+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:06:07.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.016 seconds
+[2025-02-21T08:06:37.710+0000] {processor.py:161} INFO - Started process (PID=12556) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:06:37.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:06:37.717+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:06:37.716+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:06:38.809+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:06:38.791+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:06:38.814+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:06:38.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.185 seconds
+[2025-02-21T08:07:09.606+0000] {processor.py:161} INFO - Started process (PID=12619) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:07:09.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:07:09.614+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:07:09.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:07:10.589+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:07:10.568+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:07:10.597+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:07:10.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.066 seconds
+[2025-02-21T08:07:41.221+0000] {processor.py:161} INFO - Started process (PID=12685) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:07:41.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:07:41.232+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:07:41.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:07:42.366+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:07:42.347+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:07:42.373+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:07:42.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.263 seconds
+[2025-02-21T08:08:12.931+0000] {processor.py:161} INFO - Started process (PID=12750) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:08:12.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:08:12.938+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:08:12.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:08:13.969+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:08:13.948+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:08:13.974+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:08:14.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.130 seconds
+[2025-02-21T08:08:44.616+0000] {processor.py:161} INFO - Started process (PID=12814) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:08:44.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:08:44.625+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:08:44.624+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:08:45.910+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:08:45.887+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:08:45.914+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:08:45.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.363 seconds
+[2025-02-21T08:09:16.579+0000] {processor.py:161} INFO - Started process (PID=12878) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:09:16.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:09:16.587+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:09:16.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:09:17.480+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:09:17.457+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:09:17.489+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:09:17.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.000 seconds
+[2025-02-21T08:09:48.392+0000] {processor.py:161} INFO - Started process (PID=12943) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:09:48.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:09:48.398+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:09:48.397+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:09:49.284+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:09:49.267+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:09:49.291+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:09:49.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.980 seconds
+[2025-02-21T08:10:19.933+0000] {processor.py:161} INFO - Started process (PID=13007) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:10:19.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:10:19.938+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:10:19.938+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:10:20.922+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:10:20.907+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:10:20.926+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:10:20.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.060 seconds
+[2025-02-21T08:10:51.273+0000] {processor.py:161} INFO - Started process (PID=13070) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:10:51.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:10:51.280+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:10:51.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:10:52.088+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:10:52.067+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:10:52.100+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:10:52.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.896 seconds
+[2025-02-21T08:11:22.485+0000] {processor.py:161} INFO - Started process (PID=13137) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:11:22.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:11:22.494+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:11:22.493+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:11:23.430+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:11:23.385+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:11:23.439+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:11:23.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.066 seconds
+[2025-02-21T08:11:53.817+0000] {processor.py:161} INFO - Started process (PID=13201) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:11:53.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:11:53.823+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:11:53.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:11:54.600+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:11:54.583+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:11:54.605+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:11:54.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.840 seconds
+[2025-02-21T08:12:24.936+0000] {processor.py:161} INFO - Started process (PID=13266) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:12:24.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:12:24.944+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:12:24.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:12:25.738+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:12:25.718+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:12:25.743+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:12:25.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.865 seconds
+[2025-02-21T08:12:56.529+0000] {processor.py:161} INFO - Started process (PID=13329) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:12:56.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:12:56.552+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:12:56.551+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:12:57.355+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:12:57.340+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:12:57.359+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:12:57.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.907 seconds
+[2025-02-21T08:13:28.022+0000] {processor.py:161} INFO - Started process (PID=13396) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:13:28.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:13:28.034+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:13:28.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:13:28.924+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:13:28.905+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:13:28.935+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:13:29.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.044 seconds
+[2025-02-21T08:13:59.613+0000] {processor.py:161} INFO - Started process (PID=13464) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:13:59.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:13:59.620+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:13:59.619+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:14:00.494+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:14:00.469+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:14:00.501+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:14:00.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.967 seconds
+[2025-02-21T08:14:30.808+0000] {processor.py:161} INFO - Started process (PID=13528) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:14:30.811+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:14:30.814+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:14:30.813+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:14:31.733+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:14:31.719+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:14:31.738+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:14:31.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.991 seconds
+[2025-02-21T08:15:02.241+0000] {processor.py:161} INFO - Started process (PID=13592) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:15:02.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:15:02.251+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:15:02.251+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:15:03.269+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:15:03.249+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:15:03.274+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:15:03.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.131 seconds
+[2025-02-21T08:15:34.400+0000] {processor.py:161} INFO - Started process (PID=13656) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:15:34.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:15:34.407+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:15:34.406+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:15:35.166+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:15:35.150+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:15:35.172+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:15:35.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.834 seconds
+[2025-02-21T08:16:05.764+0000] {processor.py:161} INFO - Started process (PID=13720) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:16:05.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:16:05.770+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:16:05.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:16:06.952+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:16:06.928+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:16:06.964+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:16:07.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.283 seconds
+[2025-02-21T08:16:38.099+0000] {processor.py:161} INFO - Started process (PID=13785) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:16:38.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:16:38.114+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:16:38.113+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:16:39.025+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:16:38.989+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:16:39.033+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:16:39.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.008 seconds
+[2025-02-21T08:17:09.529+0000] {processor.py:161} INFO - Started process (PID=13850) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:17:09.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:17:09.540+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:17:09.539+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:17:10.372+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:17:10.352+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:17:10.385+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:17:10.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.958 seconds
+[2025-02-21T08:17:40.776+0000] {processor.py:161} INFO - Started process (PID=13913) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:17:40.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:17:40.782+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:17:40.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:17:41.823+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:17:41.783+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:17:41.830+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:17:41.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.130 seconds
+[2025-02-21T08:18:12.321+0000] {processor.py:161} INFO - Started process (PID=13978) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:18:12.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:18:12.329+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:18:12.329+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:18:13.004+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:18:12.984+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:18:13.014+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:18:13.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.784 seconds
+[2025-02-21T08:18:43.313+0000] {processor.py:161} INFO - Started process (PID=14042) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:18:43.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:18:43.324+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:18:43.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:18:44.506+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:18:44.490+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:18:44.515+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:18:44.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.275 seconds
+[2025-02-21T08:19:15.003+0000] {processor.py:161} INFO - Started process (PID=14105) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:19:15.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:19:15.010+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:19:15.010+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:19:15.757+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:19:15.742+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:19:15.761+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:19:15.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.819 seconds
+[2025-02-21T08:19:46.068+0000] {processor.py:161} INFO - Started process (PID=14170) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:19:46.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:19:46.074+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:19:46.073+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:19:47.029+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:19:46.999+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:19:47.036+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:19:47.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.069 seconds
+[2025-02-21T08:20:17.708+0000] {processor.py:161} INFO - Started process (PID=14234) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:20:17.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:20:17.726+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:20:17.725+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:20:18.743+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:20:18.716+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:20:18.748+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:20:18.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.138 seconds
+[2025-02-21T08:20:49.069+0000] {processor.py:161} INFO - Started process (PID=14298) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:20:49.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:20:49.082+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:20:49.081+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:20:49.890+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:20:49.873+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:20:49.895+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:20:49.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.919 seconds
+[2025-02-21T08:21:20.227+0000] {processor.py:161} INFO - Started process (PID=14363) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:21:20.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:21:20.235+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:21:20.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:21:21.055+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:21:21.033+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:21:21.061+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:21:21.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.918 seconds
+[2025-02-21T08:21:51.659+0000] {processor.py:161} INFO - Started process (PID=14426) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:21:51.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:21:51.665+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:21:51.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:21:52.798+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:21:52.775+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:21:52.804+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:21:52.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.207 seconds
+[2025-02-21T08:22:23.290+0000] {processor.py:161} INFO - Started process (PID=14489) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:22:23.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:22:23.300+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:22:23.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:22:24.655+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:22:24.633+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:22:24.672+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:22:24.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.454 seconds
+[2025-02-21T08:22:55.574+0000] {processor.py:161} INFO - Started process (PID=14554) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:22:55.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:22:55.592+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:22:55.590+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:22:56.848+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:22:56.829+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:22:56.855+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:22:56.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.344 seconds
+[2025-02-21T08:23:27.894+0000] {processor.py:161} INFO - Started process (PID=14619) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:23:27.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:23:27.905+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:23:27.904+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:23:29.311+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:23:29.295+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:23:29.316+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:23:29.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.476 seconds
+[2025-02-21T08:24:00.285+0000] {processor.py:161} INFO - Started process (PID=14684) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:24:00.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:24:00.293+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:24:00.291+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:24:01.593+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:24:01.576+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:24:01.598+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:24:01.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.366 seconds
+[2025-02-21T08:24:31.957+0000] {processor.py:161} INFO - Started process (PID=14750) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:24:31.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:24:31.964+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:24:31.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:24:33.259+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:24:33.242+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:24:33.265+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:24:33.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.375 seconds
+[2025-02-21T08:25:04.036+0000] {processor.py:161} INFO - Started process (PID=14820) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:25:04.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:25:04.043+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:25:04.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:25:05.329+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:25:05.309+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:25:05.336+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:25:05.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.343 seconds
+[2025-02-21T08:25:35.868+0000] {processor.py:161} INFO - Started process (PID=14885) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:25:35.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:25:35.875+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:25:35.874+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:25:37.184+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:25:37.169+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:25:37.189+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:25:37.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.380 seconds
+[2025-02-21T08:26:07.758+0000] {processor.py:161} INFO - Started process (PID=14949) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:26:07.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:26:07.773+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:26:07.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:26:09.147+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:26:09.130+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:26:09.153+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:26:09.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.463 seconds
+[2025-02-21T08:26:39.639+0000] {processor.py:161} INFO - Started process (PID=15012) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:26:39.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:26:39.649+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:26:39.647+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:26:40.949+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:26:40.934+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:26:40.954+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:26:41.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.398 seconds
+[2025-02-21T08:27:11.274+0000] {processor.py:161} INFO - Started process (PID=15076) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:27:11.283+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:27:11.288+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:27:11.288+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:27:12.727+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:27:12.702+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:27:12.740+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:27:12.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.579 seconds
+[2025-02-21T08:27:43.643+0000] {processor.py:161} INFO - Started process (PID=15141) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:27:43.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:27:43.658+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:27:43.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:27:45.299+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:27:45.283+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:27:45.305+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:27:45.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.723 seconds
+[2025-02-21T08:28:15.747+0000] {processor.py:161} INFO - Started process (PID=15205) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:28:15.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:28:15.754+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:28:15.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:28:16.892+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:28:16.874+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:28:16.898+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:28:16.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.228 seconds
+[2025-02-21T08:28:47.762+0000] {processor.py:161} INFO - Started process (PID=15270) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:28:47.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:28:47.770+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:28:47.769+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:28:48.856+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:28:48.841+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:28:48.862+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:28:48.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.162 seconds
+[2025-02-21T08:29:19.100+0000] {processor.py:161} INFO - Started process (PID=15335) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:29:19.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:29:19.104+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:29:19.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:29:20.316+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:29:20.303+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:29:20.321+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:29:20.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.271 seconds
+[2025-02-21T08:29:50.787+0000] {processor.py:161} INFO - Started process (PID=15398) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:29:50.792+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:29:50.799+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:29:50.798+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:29:52.015+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:29:51.999+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:29:52.020+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:29:52.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.290 seconds
+[2025-02-21T08:30:22.394+0000] {processor.py:161} INFO - Started process (PID=15464) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:30:22.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:30:22.401+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:30:22.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:30:23.634+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:30:23.615+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:30:23.642+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:30:23.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.321 seconds
+[2025-02-21T08:30:54.136+0000] {processor.py:161} INFO - Started process (PID=15527) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:30:54.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:30:54.145+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:30:54.144+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:30:55.563+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:30:55.545+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:30:55.568+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:30:55.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.541 seconds
+[2025-02-21T08:31:25.907+0000] {processor.py:161} INFO - Started process (PID=15591) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:31:25.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:31:25.914+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:31:25.913+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:31:27.330+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:31:27.309+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:31:27.339+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:31:27.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.513 seconds
+[2025-02-21T08:31:57.906+0000] {processor.py:161} INFO - Started process (PID=15656) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:31:57.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:31:57.914+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:31:57.913+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:31:59.411+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:31:59.380+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:31:59.417+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:31:59.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.583 seconds
+[2025-02-21T08:32:30.027+0000] {processor.py:161} INFO - Started process (PID=15720) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:32:30.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:32:30.037+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:32:30.036+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:32:31.390+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:32:31.374+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:32:31.396+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:32:31.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.466 seconds
+[2025-02-21T08:33:01.897+0000] {processor.py:161} INFO - Started process (PID=15784) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:33:01.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:33:01.904+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:33:01.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:33:03.185+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:33:03.170+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:33:03.192+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:33:03.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.358 seconds
+[2025-02-21T08:33:34.078+0000] {processor.py:161} INFO - Started process (PID=15849) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:33:34.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:33:34.084+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:33:34.084+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:33:35.279+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:33:35.244+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:33:35.300+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:33:35.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.304 seconds
+[2025-02-21T08:34:05.557+0000] {processor.py:161} INFO - Started process (PID=15915) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:34:05.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:34:05.564+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:34:05.564+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:34:06.967+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:34:06.953+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:34:06.972+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:34:07.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.474 seconds
+[2025-02-21T08:34:37.318+0000] {processor.py:161} INFO - Started process (PID=15984) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:34:37.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:34:37.323+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:34:37.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:34:38.919+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:34:38.898+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:34:38.924+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:34:38.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.676 seconds
+[2025-02-21T08:35:09.267+0000] {processor.py:161} INFO - Started process (PID=16050) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:35:09.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:35:09.276+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:35:09.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:35:10.530+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:35:10.511+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:35:10.536+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:35:10.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.341 seconds
+[2025-02-21T08:35:41.150+0000] {processor.py:161} INFO - Started process (PID=16116) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:35:41.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:35:41.157+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:35:41.156+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:35:42.430+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:35:42.404+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:35:42.436+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:35:42.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.358 seconds
+[2025-02-21T08:36:12.746+0000] {processor.py:161} INFO - Started process (PID=16181) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:36:12.750+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:36:12.755+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:36:12.753+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:36:13.806+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:36:13.787+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:36:13.811+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:36:13.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.153 seconds
+[2025-02-21T08:36:44.733+0000] {processor.py:161} INFO - Started process (PID=16247) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:36:44.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:36:44.743+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:36:44.740+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:36:46.052+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:36:46.038+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:36:46.057+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:36:46.101+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.383 seconds
+[2025-02-21T08:37:16.634+0000] {processor.py:161} INFO - Started process (PID=16313) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:37:16.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:37:16.643+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:37:16.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:37:18.051+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:37:18.037+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:37:18.055+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:37:18.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.483 seconds
+[2025-02-21T08:37:48.521+0000] {processor.py:161} INFO - Started process (PID=16380) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:37:48.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:37:48.535+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:37:48.534+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:37:49.776+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:37:49.748+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:37:49.786+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:37:49.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.342 seconds
+[2025-02-21T08:38:20.333+0000] {processor.py:161} INFO - Started process (PID=16445) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:38:20.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:38:20.341+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:38:20.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:38:21.608+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:38:21.589+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:38:21.614+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:38:21.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.356 seconds
+[2025-02-21T08:38:52.836+0000] {processor.py:161} INFO - Started process (PID=16512) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:38:52.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:38:52.843+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:38:52.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:38:54.110+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:38:54.092+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:38:54.118+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:38:54.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.329 seconds
+[2025-02-21T08:39:24.417+0000] {processor.py:161} INFO - Started process (PID=16577) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:39:24.422+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:39:24.435+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:39:24.433+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:39:25.865+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:39:25.839+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:39:25.878+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:39:25.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.563 seconds
+[2025-02-21T08:39:56.476+0000] {processor.py:161} INFO - Started process (PID=16640) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:39:56.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:39:56.485+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:39:56.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:39:57.799+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:39:57.777+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:39:57.806+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:39:57.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.382 seconds
+[2025-02-21T08:40:28.482+0000] {processor.py:161} INFO - Started process (PID=16705) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:40:28.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:40:28.492+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:40:28.491+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:40:29.862+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:40:29.849+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:40:29.866+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:40:29.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.442 seconds
+[2025-02-21T08:41:00.324+0000] {processor.py:161} INFO - Started process (PID=16770) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:41:00.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:41:00.332+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:41:00.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:41:01.774+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:41:01.759+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:41:01.781+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:41:01.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.529 seconds
+[2025-02-21T08:41:32.086+0000] {processor.py:161} INFO - Started process (PID=16834) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:41:32.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:41:32.095+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:41:32.094+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:41:33.417+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:41:33.401+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:41:33.422+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:41:33.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.400 seconds
+[2025-02-21T08:42:03.831+0000] {processor.py:161} INFO - Started process (PID=16898) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:42:03.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:42:03.842+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:42:03.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:42:05.237+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:42:05.212+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:42:05.246+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:42:05.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.491 seconds
+[2025-02-21T08:42:35.866+0000] {processor.py:161} INFO - Started process (PID=16962) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:42:35.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:42:35.873+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:42:35.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:42:37.167+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:42:37.146+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:42:37.173+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:42:37.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.420 seconds
+[2025-02-21T08:43:07.964+0000] {processor.py:161} INFO - Started process (PID=17026) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:43:07.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:43:07.971+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:43:07.970+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:43:09.174+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:43:09.156+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:43:09.179+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:43:09.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.268 seconds
+[2025-02-21T08:43:39.543+0000] {processor.py:161} INFO - Started process (PID=17091) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:43:39.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:43:39.551+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:43:39.550+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:43:40.873+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:43:40.850+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:43:40.881+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:43:40.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.434 seconds
+[2025-02-21T08:44:11.653+0000] {processor.py:161} INFO - Started process (PID=17163) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:44:11.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:44:11.682+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:44:11.681+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:44:12.970+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:44:12.950+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:44:12.975+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:44:13.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.383 seconds
+[2025-02-21T08:44:43.809+0000] {processor.py:161} INFO - Started process (PID=17226) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:44:43.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:44:43.818+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:44:43.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:44:45.000+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:44:44.976+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:44:45.006+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:44:45.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.269 seconds
+[2025-02-21T08:45:15.460+0000] {processor.py:161} INFO - Started process (PID=17290) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:45:15.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:45:15.465+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:45:15.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:45:16.731+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:45:16.708+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:45:16.737+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:45:16.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.342 seconds
+[2025-02-21T08:45:47.787+0000] {processor.py:161} INFO - Started process (PID=17353) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:45:47.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:45:47.799+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:45:47.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:45:48.906+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:45:48.877+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:45:48.914+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:45:48.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.199 seconds
+[2025-02-21T08:46:19.588+0000] {processor.py:161} INFO - Started process (PID=17417) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:46:19.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:46:19.600+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:46:19.599+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:46:20.733+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:46:20.703+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:46:20.739+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:46:20.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.217 seconds
+[2025-02-21T08:46:50.972+0000] {processor.py:161} INFO - Started process (PID=17481) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:46:50.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:46:50.979+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:46:50.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:46:52.136+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:46:52.122+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:46:52.139+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:46:52.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.223 seconds
+[2025-02-21T08:47:22.502+0000] {processor.py:161} INFO - Started process (PID=17545) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:47:22.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:47:22.509+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:47:22.509+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:47:23.623+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:47:23.582+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:47:23.638+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:47:23.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.217 seconds
+[2025-02-21T08:47:54.174+0000] {processor.py:161} INFO - Started process (PID=17609) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:47:54.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:47:54.181+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:47:54.181+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:47:55.058+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:47:55.031+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:47:55.065+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:47:55.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.990 seconds
+[2025-02-21T08:48:25.706+0000] {processor.py:161} INFO - Started process (PID=17673) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:48:25.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:48:25.714+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:48:25.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:48:26.683+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:48:26.660+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:48:26.691+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:48:26.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.051 seconds
+[2025-02-21T08:48:57.068+0000] {processor.py:161} INFO - Started process (PID=17737) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:48:57.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:48:57.075+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:48:57.074+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:48:57.953+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:48:57.922+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:48:57.957+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:48:58.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.952 seconds
+[2025-02-21T08:49:28.327+0000] {processor.py:161} INFO - Started process (PID=17800) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:49:28.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:49:28.340+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:49:28.339+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:49:29.259+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:49:29.233+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:49:29.265+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:49:29.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.003 seconds
+[2025-02-21T08:50:00.245+0000] {processor.py:161} INFO - Started process (PID=17864) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:50:00.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:50:00.251+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:50:00.250+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:50:01.188+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:50:01.159+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:50:01.199+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:50:01.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.038 seconds
+[2025-02-21T08:50:32.076+0000] {processor.py:161} INFO - Started process (PID=17928) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:50:32.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:50:32.082+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:50:32.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:50:33.048+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:50:33.021+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:50:33.057+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:50:33.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.065 seconds
+[2025-02-21T08:51:03.505+0000] {processor.py:161} INFO - Started process (PID=17993) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:51:03.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:51:03.511+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:51:03.510+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:51:04.410+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:51:04.389+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:51:04.418+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:51:04.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.007 seconds
+[2025-02-21T08:51:34.787+0000] {processor.py:161} INFO - Started process (PID=18057) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:51:34.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:51:34.796+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:51:34.795+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:51:35.801+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:51:35.783+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:51:35.807+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:51:35.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.101 seconds
+[2025-02-21T08:52:06.263+0000] {processor.py:161} INFO - Started process (PID=18121) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:52:06.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:52:06.272+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:52:06.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:52:07.244+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:52:07.225+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:52:07.248+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:52:07.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.067 seconds
+[2025-02-21T08:52:37.572+0000] {processor.py:161} INFO - Started process (PID=18185) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:52:37.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:52:37.578+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:52:37.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:52:38.606+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:52:38.569+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:52:38.622+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:52:38.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.163 seconds
+[2025-02-21T08:53:09.238+0000] {processor.py:161} INFO - Started process (PID=18250) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:53:09.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:53:09.244+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:53:09.243+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:53:10.226+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:53:10.203+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:53:10.231+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:53:10.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.064 seconds
+[2025-02-21T08:53:41.192+0000] {processor.py:161} INFO - Started process (PID=18313) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:53:41.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:53:41.204+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:53:41.203+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:53:42.048+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:53:42.026+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:53:42.054+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:53:42.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.934 seconds
+[2025-02-21T08:54:12.556+0000] {processor.py:161} INFO - Started process (PID=18378) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:54:12.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:54:12.564+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:54:12.563+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:54:13.521+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:54:13.504+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:54:13.526+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:54:13.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.091 seconds
+[2025-02-21T08:54:43.900+0000] {processor.py:161} INFO - Started process (PID=18442) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:54:43.904+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:54:43.906+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:54:43.906+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:54:44.778+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:54:44.754+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:54:44.784+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:54:44.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.951 seconds
+[2025-02-21T08:55:15.186+0000] {processor.py:161} INFO - Started process (PID=18506) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:55:15.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:55:15.193+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:55:15.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:55:16.221+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:55:16.184+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:55:16.225+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:55:16.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.121 seconds
+[2025-02-21T08:55:46.640+0000] {processor.py:161} INFO - Started process (PID=18570) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:55:46.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:55:46.666+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:55:46.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:55:48.004+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:55:47.978+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:55:48.008+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:55:48.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.467 seconds
+[2025-02-21T08:56:18.449+0000] {processor.py:161} INFO - Started process (PID=18641) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:56:18.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:56:18.454+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:56:18.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:56:19.300+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:56:19.271+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:56:19.311+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:56:19.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.950 seconds
+[2025-02-21T08:56:50.039+0000] {processor.py:161} INFO - Started process (PID=18704) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:56:50.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:56:50.047+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:56:50.046+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:56:50.958+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:56:50.943+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:56:50.962+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:56:51.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.993 seconds
+[2025-02-21T08:57:21.480+0000] {processor.py:161} INFO - Started process (PID=18769) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:57:21.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:57:21.489+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:57:21.489+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:57:22.533+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:57:22.500+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:57:22.539+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:57:22.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.140 seconds
+[2025-02-21T08:57:52.983+0000] {processor.py:161} INFO - Started process (PID=18832) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:57:52.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:57:52.995+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:57:52.994+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:57:53.881+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:57:53.859+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:57:53.889+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:57:53.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.969 seconds
+[2025-02-21T08:58:24.207+0000] {processor.py:161} INFO - Started process (PID=18896) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:58:24.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:58:24.215+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:58:24.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:58:25.246+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:58:25.223+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:58:25.251+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:58:25.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.112 seconds
+[2025-02-21T08:58:55.834+0000] {processor.py:161} INFO - Started process (PID=18961) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:58:55.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:58:55.842+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:58:55.840+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:58:56.936+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:58:56.874+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:58:56.944+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:58:57.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.210 seconds
+[2025-02-21T08:59:27.684+0000] {processor.py:161} INFO - Started process (PID=19026) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:59:27.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:59:27.691+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:59:27.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:59:28.602+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:59:28.576+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T08:59:28.616+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:59:28.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.017 seconds
+[2025-02-21T08:59:59.362+0000] {processor.py:161} INFO - Started process (PID=19092) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T08:59:59.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T08:59:59.382+0000] {logging_mixin.py:188} INFO - [2025-02-21T08:59:59.374+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:00:00.399+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:00:00.379+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:00:00.405+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:00:00.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.134 seconds
+[2025-02-21T09:00:30.829+0000] {processor.py:161} INFO - Started process (PID=19157) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:00:30.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:00:30.838+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:00:30.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:00:31.823+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:00:31.803+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:00:31.831+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:00:31.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.114 seconds
+[2025-02-21T09:01:02.388+0000] {processor.py:161} INFO - Started process (PID=19222) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:01:02.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:01:02.395+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:01:02.394+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:01:03.271+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:01:03.257+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:01:03.280+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:01:03.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.956 seconds
+[2025-02-21T09:01:33.778+0000] {processor.py:161} INFO - Started process (PID=19286) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:01:33.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:01:33.787+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:01:33.787+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:01:34.680+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:01:34.660+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:01:34.685+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:01:34.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.992 seconds
+[2025-02-21T09:02:04.959+0000] {processor.py:161} INFO - Started process (PID=19350) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:02:04.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:02:04.965+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:02:04.965+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:02:05.873+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:02:05.842+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:02:05.885+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:02:06.020+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.070 seconds
+[2025-02-21T09:02:36.282+0000] {processor.py:161} INFO - Started process (PID=19412) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:02:36.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:02:36.288+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:02:36.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:02:37.360+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:02:37.326+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:02:37.375+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:02:37.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.166 seconds
+[2025-02-21T09:03:07.719+0000] {processor.py:161} INFO - Started process (PID=19475) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:03:07.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:03:07.727+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:03:07.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:03:08.581+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:03:08.557+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:03:08.587+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:03:08.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.934 seconds
+[2025-02-21T09:03:39.054+0000] {processor.py:161} INFO - Started process (PID=19537) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:03:39.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:03:39.063+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:03:39.062+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:03:40.083+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:03:40.057+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:03:40.101+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:03:40.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.146 seconds
+[2025-02-21T09:04:10.503+0000] {processor.py:161} INFO - Started process (PID=19601) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:04:10.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:04:10.513+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:04:10.513+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:04:11.506+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:04:11.462+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:04:11.513+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:04:11.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.088 seconds
+[2025-02-21T09:04:41.786+0000] {processor.py:161} INFO - Started process (PID=19664) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:04:41.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:04:41.794+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:04:41.793+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:04:42.957+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:04:42.912+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:04:42.976+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:04:43.101+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.323 seconds
+[2025-02-21T09:05:13.728+0000] {processor.py:161} INFO - Started process (PID=19727) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:05:13.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:05:13.739+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:05:13.736+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:05:14.862+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:05:14.844+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:05:14.871+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:05:14.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.222 seconds
+[2025-02-21T09:05:45.420+0000] {processor.py:161} INFO - Started process (PID=19792) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:05:45.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:05:45.426+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:05:45.425+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:05:46.541+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:05:46.514+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:05:46.550+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:05:46.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.218 seconds
+[2025-02-21T09:06:17.221+0000] {processor.py:161} INFO - Started process (PID=19855) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:06:17.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:06:17.244+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:06:17.243+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:06:18.376+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:06:18.350+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:06:18.382+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:06:18.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.262 seconds
+[2025-02-21T09:06:48.732+0000] {processor.py:161} INFO - Started process (PID=19919) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:06:48.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:06:48.738+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:06:48.738+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:06:49.614+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:06:49.582+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:06:49.626+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:06:49.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 0.970 seconds
+[2025-02-21T09:07:20.536+0000] {processor.py:161} INFO - Started process (PID=19982) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:07:20.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:07:20.560+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:07:20.559+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:07:21.636+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:07:21.622+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:07:21.642+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:07:21.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.196 seconds
+[2025-02-21T09:07:52.289+0000] {processor.py:161} INFO - Started process (PID=20053) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:07:52.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:07:52.310+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:07:52.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:07:53.374+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:07:53.352+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:07:53.379+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:07:53.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.168 seconds
+[2025-02-21T09:08:23.998+0000] {processor.py:161} INFO - Started process (PID=20116) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:08:24.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:08:24.010+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:08:24.009+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:08:25.008+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:08:24.990+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:08:25.013+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:08:25.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.069 seconds
+[2025-02-21T09:08:55.250+0000] {processor.py:161} INFO - Started process (PID=20180) to work on /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:08:55.254+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/optum_ml2_dag.py for tasks to queue
+[2025-02-21T09:08:55.258+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:08:55.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:08:56.227+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:08:56.201+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/optum_ml2_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/optum_ml2_dag.py", line 7, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+[2025-02-21T09:08:56.235+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/optum_ml2_dag.py
+[2025-02-21T09:08:56.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/optum_ml2_dag.py took 1.081 seconds
