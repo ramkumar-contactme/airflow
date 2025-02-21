@@ -1,0 +1,3 @@
+need to install jupyter notebook 
+localhost:8888
+create notebook gile
