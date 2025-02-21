@@ -1787,3 +1787,171 @@
 [2025-02-21T09:34:04.488+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:34:04.488+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-02-21T09:34:04.585+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:34:04.584+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
 [2025-02-21T09:34:04.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.360 seconds
+[2025-02-21T09:34:34.961+0000] {processor.py:161} INFO - Started process (PID=23331) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:34:34.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:34:34.968+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:34:34.967+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:34:35.093+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:34:35.164+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:34:35.163+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:34:35.242+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:34:35.242+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:34:35.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.355 seconds
+[2025-02-21T09:35:05.729+0000] {processor.py:161} INFO - Started process (PID=23391) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:35:05.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:35:05.737+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:35:05.736+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:35:05.802+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:35:05.865+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:35:05.864+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:35:05.955+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:35:05.955+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:35:06.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.352 seconds
+[2025-02-21T09:35:36.518+0000] {processor.py:161} INFO - Started process (PID=23451) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:35:36.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:35:36.525+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:35:36.525+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:35:36.604+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:35:36.667+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:35:36.666+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:35:36.743+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:35:36.742+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:35:36.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.293 seconds
+[2025-02-21T09:36:07.684+0000] {processor.py:161} INFO - Started process (PID=23513) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:36:07.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:36:07.695+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:36:07.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:36:07.823+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:36:07.889+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:36:07.888+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:36:07.943+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:36:07.943+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:36:08.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.338 seconds
+[2025-02-21T09:36:38.308+0000] {processor.py:161} INFO - Started process (PID=23573) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:36:38.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:36:38.328+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:36:38.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:36:38.436+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:36:38.508+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:36:38.508+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:36:38.598+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:36:38.597+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:36:38.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.406 seconds
+[2025-02-21T09:37:09.036+0000] {processor.py:161} INFO - Started process (PID=23631) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:37:09.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:37:09.043+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:37:09.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:37:09.115+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:37:09.175+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:37:09.174+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:37:09.240+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:37:09.240+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:37:09.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.273 seconds
+[2025-02-21T09:37:39.750+0000] {processor.py:161} INFO - Started process (PID=23691) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:37:39.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:37:39.755+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:37:39.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:37:39.824+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:37:39.877+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:37:39.877+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:37:39.935+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:37:39.934+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:37:39.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.250 seconds
+[2025-02-21T09:38:11.035+0000] {processor.py:161} INFO - Started process (PID=23755) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:38:11.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:38:11.041+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:38:11.041+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:38:11.151+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:38:11.222+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:38:11.221+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:38:11.308+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:38:11.307+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:38:11.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.349 seconds
+[2025-02-21T09:38:42.146+0000] {processor.py:161} INFO - Started process (PID=23818) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:38:42.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:38:42.155+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:38:42.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:38:42.230+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:38:42.300+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:38:42.299+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:38:42.371+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:38:42.371+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:38:42.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.293 seconds
+[2025-02-21T09:39:13.330+0000] {processor.py:161} INFO - Started process (PID=23921) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:39:13.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:39:13.341+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:39:13.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:39:13.436+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:39:13.497+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:39:13.497+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:39:13.603+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:39:13.603+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:39:13.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.350 seconds
+[2025-02-21T09:39:43.837+0000] {processor.py:161} INFO - Started process (PID=24011) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:39:43.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:39:43.844+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:39:43.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:39:43.919+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:39:43.972+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:39:43.971+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:39:44.040+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:39:44.040+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:39:44.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.302 seconds
+[2025-02-21T09:40:14.348+0000] {processor.py:161} INFO - Started process (PID=24109) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:40:14.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:40:14.358+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:40:14.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:40:14.448+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:40:14.551+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:40:14.550+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:40:14.693+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:40:14.693+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:40:14.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.461 seconds
+[2025-02-21T09:40:45.130+0000] {processor.py:161} INFO - Started process (PID=24196) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:40:45.134+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:40:45.139+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:40:45.139+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:40:45.265+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:40:45.467+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:40:45.466+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:40:45.583+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:40:45.583+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:40:45.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.529 seconds
+[2025-02-21T09:41:16.428+0000] {processor.py:161} INFO - Started process (PID=24279) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:41:16.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:41:16.435+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:41:16.435+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:41:16.509+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:41:16.590+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:41:16.589+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:41:16.665+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:41:16.664+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:41:16.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.305 seconds
+[2025-02-21T09:41:47.205+0000] {processor.py:161} INFO - Started process (PID=24342) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:41:47.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:41:47.210+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:41:47.209+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:41:47.278+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:41:47.328+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:41:47.328+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:41:47.372+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:41:47.372+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:41:47.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.235 seconds
+[2025-02-21T09:42:17.917+0000] {processor.py:161} INFO - Started process (PID=24406) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:42:17.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:42:17.930+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:42:17.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:42:18.027+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:42:18.097+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:42:18.096+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:42:18.169+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:42:18.168+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:42:18.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.343 seconds
+[2025-02-21T09:42:49.021+0000] {processor.py:161} INFO - Started process (PID=24470) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:42:49.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:42:49.028+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:42:49.028+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:42:49.085+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:42:49.148+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:42:49.147+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:42:49.219+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:42:49.219+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:42:49.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.276 seconds
+[2025-02-21T09:43:20.069+0000] {processor.py:161} INFO - Started process (PID=24533) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:43:20.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:43:20.076+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:43:20.075+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:43:20.154+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:43:20.213+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:43:20.213+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:43:20.279+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:43:20.278+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:43:20.356+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.296 seconds
+[2025-02-21T09:43:50.582+0000] {processor.py:161} INFO - Started process (PID=24596) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:43:50.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:43:50.593+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:43:50.592+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:43:50.664+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:43:50.722+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:43:50.722+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:43:50.786+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:43:50.785+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:43:51.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.574 seconds
+[2025-02-21T09:44:21.788+0000] {processor.py:161} INFO - Started process (PID=24659) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:44:21.792+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:44:21.795+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:44:21.795+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:44:21.874+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:44:21.935+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:44:21.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:44:22.112+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:44:22.111+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:44:22.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.931 seconds
+[2025-02-21T09:44:53.002+0000] {processor.py:161} INFO - Started process (PID=24722) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:44:53.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:44:53.013+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:44:53.011+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:44:53.095+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:44:53.172+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:44:53.171+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:44:53.256+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:44:53.255+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:44:53.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.344 seconds
+[2025-02-21T09:45:23.717+0000] {processor.py:161} INFO - Started process (PID=24785) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:45:23.726+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:45:23.731+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:45:23.730+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:45:23.811+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:45:23.886+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:45:23.885+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:45:23.949+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:45:23.948+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:45:24.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.309 seconds
+[2025-02-21T09:45:54.829+0000] {processor.py:161} INFO - Started process (PID=24848) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:45:54.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:45:54.838+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:45:54.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:45:54.935+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:45:55.027+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:45:55.026+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:45:55.146+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:45:55.144+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:45:55.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.430 seconds
+[2025-02-21T09:46:25.454+0000] {processor.py:161} INFO - Started process (PID=24912) to work on /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:46:25.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ultra_simple_dag1.py for tasks to queue
+[2025-02-21T09:46:25.471+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:46:25.468+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:46:25.552+0000] {processor.py:840} INFO - DAG(s) 'simple_dag1' retrieved from /opt/airflow/dags/ultra_simple_dag1.py
+[2025-02-21T09:46:25.601+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:46:25.600+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-02-21T09:46:26.034+0000] {logging_mixin.py:188} INFO - [2025-02-21T09:46:26.034+0000] {dag.py:3823} INFO - Setting next_dagrun for simple_dag1 to 2024-01-01 03:55:00+00:00, run_after=2024-01-01 03:56:00+00:00
+[2025-02-21T09:46:26.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ultra_simple_dag1.py took 0.670 seconds
