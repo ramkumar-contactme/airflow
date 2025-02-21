@@ -1,0 +1,9 @@
+create a folder named airflow
+save docker-compose-yaml into airflow folder
+
+on the command prompt run the commands below.
+md dags
+md logs
+md plugins
+docker-compose up airflow-init
+docker-compose up
